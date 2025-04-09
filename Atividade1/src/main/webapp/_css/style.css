@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+/* Estrutura geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #004080;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p, section li {
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+aside.foto {
+    width: 35%;
+    text-align: right;
+    padding: 10px;
+}
+
+aside.foto img {
+    max-width: 200px;
+    border-radius: 10px;
+    border: 2px solid #004080;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
